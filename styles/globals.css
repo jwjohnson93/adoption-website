@@ -1,0 +1,18 @@
+/* ...existing code... */
+
+.hero {
+  width: 100%; /* Make sure it's full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%; /* Full width */
+  max-height: 50vh; /* Control the height */
+  object-fit: cover; /* Ensures the image covers the area */
+  object-position: center; /* Centers the image */
+}
+
+/* ...existing code... */
